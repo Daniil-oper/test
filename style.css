@@ -10,3 +10,73 @@
     --line-color:#ECECEC;
     --borter-color:#EEEEEE;
 }
+.header-logo{
+color: var(--akcen-tcolor);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1,38;
+letter-spacing: 0.78px;
+}
+.header-studio{
+color: var(--logo-colot);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1,38;
+letter-spacing: 0.78px;
+}
+.nav-link{
+color: var(--main-text);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1,14;
+letter-spacing: 0.28px;
+}
+.nav-studia{
+color: var(--akcen-tcolor);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1,14;
+letter-spacing: 0.28px;
+}
+.header-link{
+color: var(--akcen-tcolor);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1,14;
+letter-spacing: 0.28px;
+}
+.header-linke{
+color: var(--et-textcolor);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1,14;
+letter-spacing: 0.28px;
+}
+.main-text{
+display: flex;
+width: 696px;
+height: 120px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.main-button{
+border-radius: 4px;
+background: var(--akcen-tcolor);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button-text{
+color: var(--title-color);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 1,875;
+letter-spacing: 0.96px;
+}
