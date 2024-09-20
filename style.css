@@ -50,7 +50,7 @@ font-weight: 500;
 line-height: 1,14;
 letter-spacing: 0.28px;
 }
-4.header-linke{
+.header-linke{
 color: var(--et-textcolor);
 font-family: Roboto;
 font-size: 14px;
@@ -79,4 +79,90 @@ font-size: 16px;
 font-weight: 700;
 line-height: 1,875;
 letter-spacing: 0.96px;
+}
+.sect-text{
+color: var(--main-text);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.sect-mintext{
+color: var(--et-textcolor);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,71; 
+letter-spacing: 0.42px;
+}
+.sect-h2{
+color: var(--main-text);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,16;
+letter-spacing: 1.08px;
+}
+.sect-img-foto{
+width: 370px;
+height: 294px;
+flex-shrink: 0;
+}
+.uns-tim{
+color: var(--main-text);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,16;
+letter-spacing: 1.08px;
+}
+.uns-foto{
+width: 270px;
+height: 368px;
+flex-shrink: 0;
+}
+.uns-text{
+color: var(--main-text);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1,1875;
+letter-spacing: 0.48px;
+}
+.footer-map{
+color: var(--title-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,71;
+letter-spacing: 0.42px;
+}
+.footer-gamil{
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,71;
+letter-spacing: 0.42px;
+}
+.footer-num{
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,71;
+letter-spacing: 0.42px;
 }
