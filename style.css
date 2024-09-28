@@ -171,8 +171,8 @@ letter-spacing: 0.42px;
     color: var(--akcen-tcolor);
 }
 .div-box{
-width: 696px;
-height: 220px;
+width: 1600px;
+height: 600px;
 background-color: gray;
 border: 2px solid gray;
 padding-top: 15px;
@@ -183,4 +183,10 @@ padding-bottom: 20px;
 }
 *{
     box-sizing: border-box;
+}
+.div-header{
+width: 1600px;
+height: 80px;
+flex-shrink: 0;
+background-color: var(--title-color);
 }
