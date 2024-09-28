@@ -190,3 +190,13 @@ height: 80px;
 flex-shrink: 0;
 background-color: var(--title-color);
 }
+.uns-tim{
+color: var(--et-textcolor);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+}
