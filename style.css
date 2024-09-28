@@ -166,3 +166,6 @@ font-weight: 400;
 line-height: 1,71;
 letter-spacing: 0.42px;
 }
+.nav-link:hover{
+    color: var(--akcen-tcolor);
+}
