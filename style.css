@@ -59,6 +59,7 @@ line-height: 1,14;
 letter-spacing: 0.28px;
 }
 .main-text{
+color: var(--title-color);
 display: flex;
 width: 696px;
 height: 120px;
@@ -168,6 +169,17 @@ letter-spacing: 0.42px;
 }
 .nav-link:hover{
     color: var(--akcen-tcolor);
+}
+.div-box{
+width: 696px;
+height: 220px;
+background-color: gray;
+border: 2px solid gray;
+padding-top: 15px;
+padding-left: 10px;
+padding-right: 30px;
+padding-bottom: 20px;
+    
 }
 *{
     box-sizing: border-box;
