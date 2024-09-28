@@ -169,3 +169,6 @@ letter-spacing: 0.42px;
 .nav-link:hover{
     color: var(--akcen-tcolor);
 }
+*{
+    box-sizing: border-box;
+}
