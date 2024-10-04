@@ -10,7 +10,15 @@
     --line-color:#ECECEC;
     --borter-color:#EEEEEE;
 }
-
+.container{
+    width: 1230px;
+    outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
 body{
     font-family: "Roboto";
 }
@@ -165,12 +173,6 @@ line-height: 1,71;
 letter-spacing: 0.42px;
 }
 
-.div-header{
-width: 1600px;
-height: 80px;
-flex-shrink: 0;
-background-color: var(--title-color);
-}
 .uns-tim{
 color: var(--et-textcolor);
 text-align: center;
@@ -181,4 +183,16 @@ letter-spacing: 0.48px;
 }
 .footer{
     background-color: var(--footer-background);
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.div-box{
+    padding-top: 200px;
+    padding-bottom: 210px;
+}
+.{
+    padding-top: 94px;
+    padding-bottom: 218px;
 }
