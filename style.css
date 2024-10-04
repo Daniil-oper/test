@@ -10,6 +10,14 @@
     --line-color:#ECECEC;
     --borter-color:#EEEEEE;
 }
+
+body{
+    font-family: "Roboto";
+}
+
+*{
+    box-sizing: border-box;
+}
 .header-logo{
 color: var(--akcen-tcolor);
 font-family: Raleway;
@@ -181,9 +189,7 @@ padding-right: 30px;
 padding-bottom: 20px;
     
 }
-*{
-    box-sizing: border-box;
-}
+
 .div-header{
 width: 1600px;
 height: 80px;
