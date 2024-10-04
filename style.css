@@ -20,7 +20,6 @@ body{
 }
 .header-logo{
 color: var(--akcen-tcolor);
-font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 line-height: 1,38;
@@ -28,15 +27,16 @@ letter-spacing: 0.78px;
 }
 .header-studio{
 color: var(--logo-colot);
-font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 line-height: 1,38;
 letter-spacing: 0.78px;
 }
+.nav-item:hover{
+    color: var(--akcen-tcolor);
+}
 .nav-link{
 color: var(--main-text);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 1,14;
@@ -44,7 +44,6 @@ letter-spacing: 0.28px;
 }
 .nav-studia{
 color: var(--akcen-tcolor);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 1,14;
@@ -52,7 +51,6 @@ letter-spacing: 0.28px;
 }
 .header-link{
 color: var(--akcen-tcolor);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 1,14;
@@ -60,11 +58,13 @@ letter-spacing: 0.28px;
 }
 .header-linke{
 color: var(--et-textcolor);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 1,14;
 letter-spacing: 0.28px;
+}
+.div-box{
+    background-color: var(--footer-background);
 }
 .main-text{
 color: var(--title-color);
@@ -83,17 +83,17 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 .button-text{
 color: var(--title-color);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
 line-height: 1,875;
 letter-spacing: 0.96px;
 }
+.sect{
+    background-color: var(--title-color);
+}
 .sect-text{
 color: var(--main-text);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
 line-height: 1,14;
 letter-spacing: 0.42px;
@@ -101,9 +101,7 @@ text-transform: uppercase;
 }
 .sect-mintext{
 color: var(--et-textcolor);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 1,71; 
 letter-spacing: 0.42px;
@@ -111,9 +109,7 @@ letter-spacing: 0.42px;
 .sect-h2{
 color: var(--main-text);
 text-align: center;
-font-family: Roboto;
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
 line-height: 1,16;
 letter-spacing: 1.08px;
@@ -123,12 +119,13 @@ width: 370px;
 height: 294px;
 flex-shrink: 0;
 }
+.uns{
+    background-color: var(--tim-background);
+}
 .uns-tim{
 color: var(--main-text);
 text-align: center;
-font-family: Roboto;
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
 line-height: 1,16;
 letter-spacing: 1.08px;
@@ -141,53 +138,31 @@ flex-shrink: 0;
 .uns-text{
 color: var(--main-text);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1,1875;
 letter-spacing: 0.48px;
 }
 .footer-map{
 color: var(--title-color);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 1,71;
 letter-spacing: 0.42px;
 }
 .footer-gamil{
 color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 1,71;
 letter-spacing: 0.42px;
 }
 .footer-num{
 color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 1,71;
 letter-spacing: 0.42px;
-}
-.nav-link:hover{
-    color: var(--akcen-tcolor);
-}
-.div-box{
-width: 1600px;
-height: 600px;
-background-color: gray;
-border: 2px solid gray;
-padding-top: 15px;
-padding-left: 10px;
-padding-right: 30px;
-padding-bottom: 20px;
-    
 }
 
 .div-header{
@@ -199,10 +174,11 @@ background-color: var(--title-color);
 .uns-tim{
 color: var(--et-textcolor);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
+}
+.footer{
+    background-color: var(--footer-background);
 }
