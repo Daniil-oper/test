@@ -194,6 +194,14 @@ letter-spacing: 0.48px;
 .footer{
     background-color: var(--footer-background);
 }
+.footer-map{
+color: var(--title-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+}
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
