@@ -11,7 +11,7 @@
     --borter-color:#EEEEEE;
 }
 .container{
-    width: 1230px;
+    width: 1200px;
     /* outline: 1px solid red; */
     margin-left: auto;
     margin-right: auto;
@@ -209,13 +209,13 @@ padding-bottom: 210px;
 }
 .sect{
 padding-top: 94px;
-padding-bottom: 118px;
+padding-bottom: 94px;
 } 
 .uns{
-padding-top: 188px;
+padding-top: 94px;
 padding-bottom: 184px;
 }
 .footer{
-padding-top: 171px;
+padding-top: 60px;
 padding-bottom: 60px;
 } 
