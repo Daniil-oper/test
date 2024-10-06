@@ -12,7 +12,7 @@
 }
 .container{
     width: 1230px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -140,10 +140,7 @@ font-weight: 400;
 line-height: 1.16;
 letter-spacing: 1.08px;
 }
-.uns-foto{
-width: 270px;
-height: 368px;
-}
+
 .uns-text{
 color: var(--main-text);
 text-align: center;
@@ -203,14 +200,18 @@ line-height: 1.71;
 letter-spacing: 0.42px;
 }
 .header{
-    padding-top: 24px;
-    padding-bottom: 25px;
+padding-top: 24px;
+padding-bottom: 25px;
 }
-.div-box{
-    padding-top: 200px;
-    padding-bottom: 210px;
+.main section{
+padding-top: 200px;
+padding-bottom: 210px;
 }
-/* .{
-    padding-top: 94px;
-    padding-bottom: 218px;
-} */
+.sect{
+padding-top: 94px;
+padding-bottom: 118px;
+} 
+.uns{
+padding-top: 188px;
+padding-bottom: 184px;
+} 
