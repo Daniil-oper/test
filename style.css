@@ -203,14 +203,18 @@ letter-spacing: 0.42px;
 padding-top: 24px;
 padding-bottom: 25px;
 }
-.main section{
+.main-section{
 padding-top: 200px;
-padding-bottom: 210px;
+padding-bottom: 200px;
 }
 .sect{
+padding-top: 294px;
+/* padding-bottom: 94px; */
+} 
+.sect-work{
 padding-top: 94px;
 padding-bottom: 94px;
-} 
+}
 .uns{
 padding-top: 94px;
 padding-bottom: 184px;
@@ -218,4 +222,12 @@ padding-bottom: 184px;
 .footer{
 padding-top: 60px;
 padding-bottom: 60px;
-} 
+}
+.work{
+padding-top: 60px;
+padding-bottom: 56px;
+}
+.fotos{
+padding-top: 125px;
+padding-bottom: 114px;
+}
