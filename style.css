@@ -231,3 +231,6 @@ padding-bottom: 56px;
 padding-top: 125px;
 padding-bottom: 114px;
 }
+.header{
+flex-direction: row;
+}
