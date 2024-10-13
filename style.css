@@ -249,3 +249,16 @@ display: flex;
 justify-content: center;
 gap: 30px;
 }
+.sect-ul{
+display: flex;
+justify-content: center;
+gap: 30px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.uns-gross-foto{
+display: flex;
+justify-content: center;
+gap: 30px;
+padding-top: 50px;
+}
