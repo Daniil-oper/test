@@ -244,3 +244,8 @@ justify-content: flex-end;
 /* align-items: ; */
 gap: 50px;
 }
+.sect-grosstext{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
