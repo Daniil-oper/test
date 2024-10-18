@@ -224,8 +224,8 @@ padding-top: 60px;
 padding-bottom: 60px;
 }
 .work{
-padding-top: 60px;
-padding-bottom: 56px;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .fotos{
 padding-top: 125px;
@@ -267,8 +267,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 8px;
-padding-top: 94px;
-padding-bottom: 50px;
 }
 .work-ul{
 display: flex;
@@ -276,4 +274,9 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 /* gap: 30px; */
+}
+.work-button{
+padding: 6px 22px;
+border-radius: 4px;
+border: none;
 }
