@@ -225,6 +225,12 @@ font-weight: 700;
 line-height: 1,38;
 letter-spacing: 0.78px;
 }
+.footer-info{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 9px;
+}
 .header{
 padding-top: 24px;
 padding-bottom: 25px;
