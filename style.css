@@ -40,7 +40,23 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
-
+.nav-list{
+display: flex;
+margin-left: 344px;
+gap: 50px;
+}
+.header-list{
+display: flex;
+gap: 50px;
+}
+.header-all{
+display: flex;
+align-items: auto;
+}
+.header-logo {
+display: flex;
+margin-right: 93px;
+}
 .nav-link{
 color: var(--main-text);
 font-size: 14px;
@@ -109,6 +125,7 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 .sect-mintext{
 color: var(--et-textcolor);
@@ -200,6 +217,14 @@ font-weight: 400;
 line-height: 1.71; 
 letter-spacing: 0.42px;
 }
+.footer-studio{
+color: var(--title-color);
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,38;
+letter-spacing: 0.78px;
+}
 .header{
 padding-top: 24px;
 padding-bottom: 25px;
@@ -213,12 +238,17 @@ padding-top: 94px;
 /* padding-bottom: 94px; */
 } 
 .sect-work{
-padding-top: 94px;
-padding-bottom: 94px;
+margin-top: 94px;
+margin-bottom: 94px;
 }
 .uns{
 padding-top: 94px;
 padding-bottom: 94px;
+}
+.uns-info{
+padding-top: 30px;
+padding-bottom: 30px;
+gap: 10px;
 }
 .footer{
 padding-top: 60px;
@@ -231,19 +261,6 @@ padding-bottom: 94px;
 .fotos{
 padding-top: 125px;
 padding-bottom: 114px;
-}
-
- .header-box{
-display: flex;
-align-items: center;
-gap: 50px;
- }
- .header-logo{
-display: flex;
-margin-right: 93px;
- }
-.nav-list{
-margin-left: auto;
 }
 .sect-grosstext{
 display: flex;
