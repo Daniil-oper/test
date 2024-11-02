@@ -42,16 +42,16 @@ letter-spacing: 0.78px;
 }
 .nav-list{
 display: flex;
-margin-left: 344px;
 gap: 50px;
 }
 .header-list{
 display: flex;
+margin-left: auto;
 gap: 50px;
 }
 .header-all{
 display: flex;
-align-items: auto;
+align-items: center;
 }
 .header-logo {
 display: flex;
@@ -244,8 +244,9 @@ padding-top: 94px;
 /* padding-bottom: 94px; */
 } 
 .sect-work{
-margin-top: 94px;
-margin-bottom: 94px;
+display: flex;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .uns{
 padding-top: 94px;
@@ -255,6 +256,12 @@ padding-bottom: 94px;
 padding-top: 30px;
 padding-bottom: 30px;
 gap: 10px;
+}
+.sect-ul {
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-top: 50px;
 }
 .footer{
 padding-top: 60px;
@@ -273,18 +280,12 @@ display: flex;
 justify-content: center;
 gap: 30px;
 }
-.sect-ul{
-display: flex;
-justify-content: center;
-gap: 30px;
-padding-top: 50px;
-padding-bottom: 50px;
-}
+
 .uns-gross-foto{
 display: flex;
 justify-content: center;
 gap: 30px;
-padding-top: 50px;
+margin-top: 50px;
 }
 .work-ul{
 display: flex;
