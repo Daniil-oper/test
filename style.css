@@ -294,6 +294,9 @@ justify-content: center;
 align-items: center;
 gap: 8px;
 }
+.work-button{
+margin-bottom: 50px;
+}
 .work-ul{
 display: flex;
 flex-wrap: wrap;
@@ -314,4 +317,11 @@ margin-bottom: 30px;
 .main-section{
 text-align: center;
 }
+.sect-img-foto{
+background-color: var(--title-color);
+width: 270px;
+height: 368px;
+flex-shrink: 0;
+}
+
 
